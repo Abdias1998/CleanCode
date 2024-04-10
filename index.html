@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>CleanCode</title>
+
+    <!-- slider stylesheet -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css"
+    />
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+    <!-- fonts style -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700|Roboto:400,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="hero_area">
+      <!-- custom menu -->
+      <div class="custom_menu-container">
+        <div class="container">
+          <div class="custom_menu">
+            <a class="navbar-brand" href="index.html">
+              <img src="images/logo.png" alt="" />
+              <span style="color: #0878a0"> CleanCode</span>
+            </a>
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link pl-0" href="index.html"
+                  >Accueil <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">À propos </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tarifs">Nos tarifs </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimony">Témoignages </a>
+              </li>
+
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#contact">Contactez-nous</a>
+              </li> -->
+            </ul>
+            <div class="user_option">
+              <div class="login_btn-container">
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLScXxkbMK9JTaHKKaJGh8Dwi4RRu64I7_e6JL79X5Vj_11Rg5g/viewform?usp=sf_link
+           " target="_blank"
+                >
+                  <button id="devis" type="button">Prendre un devis</button></a
+                >
+              </div>
+              <!-- <form class="form-inline my-2 my-lg-0">
+                <button
+                  class="btn my-2 my-sm-0 nav_search-btn"
+                  type="submit"
+                ></button>
+              </form> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- custom menu -->
+
+      <!-- header section strats -->
+      <header class="header_section">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+            <a id="menuburgerLogo" class="navbar-brand" href="index.html">
+              <img src="images/logo.png" alt="" />
+              <span> CleanCode </span>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto mr-2">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html"
+                    >Accueil <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">À propos </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#services">Nos Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#tarifs">Nos tarifs </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#testimony">Témoignages </a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contactez-nous</a>
+                </li>
+              </ul>
+              <div class="user_option">
+                <div class="login_btn-container">
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScXxkbMK9JTaHKKaJGh8Dwi4RRu64I7_e6JL79X5Vj_11Rg5g/viewform?usp=sf_link
+               " target="_blank"
+                  >
+                    <button id="devis" type="button">
+                      Prendre un devis
+                    </button></a
+                  >
+                </div>
+                <!-- <form class="form-inline my-2 my-lg-0">
+                  <button
+                    class="btn my-2 my-sm-0 nav_search-btn"
+                    type="submit"
+                  ></button>
+                </form> -->
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- end header section -->
+
+      <section class="slider_section">
+        <div class="container-fluid">
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-3 col-lg-2 offset-md-2">
+                    <div class="detail-box">
+                      <h1>CleanCode</h1>
+                      <!-- <p>Votre site web sur mesure et à votre image</p> -->
+                      <div>
+                        <a
+                          target="_blank"
+                          style="background-color: #0caa7d"
+                          href="https://api.whatsapp.com/send?phone=+22955831870&text=Je suis intéressé(e) par vos services et j'aimerais en savoir plus. Pourriez-vous m'envoyer des informations détaillées ainsi que les tarifs disponibles ? "
+                          >WhatsApp</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-7 col-lg-8">
+                    <div class="img-box">
+                      <img src="images/hero.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-3 col-lg-2 offset-md-2">
+                    <div class="detail-box">
+                      <h1>Make Design</h1>
+                      <p>
+                        There are many variations of passages of Lorem Ipsum
+                        available, but the majority
+                      </p>
+                      <div>
+                        <a href=""> Read More </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-7 col-lg-8">
+                    <div class="img-box">
+                      <img src="images/hero.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-3 col-lg-2 offset-md-2">
+                    <div class="detail-box">
+                      <h1>Make Design</h1>
+                      <p>
+                        There are many variations of passages of Lorem Ipsum
+                        available, but the majority
+                      </p>
+                      <div>
+                        <a href=""> Read More </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-7 col-lg-8">
+                    <div class="img-box">
+                      <img src="images/hero.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+            <!-- <a
+              class="carousel-control-prev"
+              href="#carouselExampleControls"
+              role="button"
+              data-slide="prev"
+            >
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleControls"
+              role="button"
+              data-slide="next"
+            >
+              <span class="sr-only">Next</span>
+            </a> -->
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- about section -->
+
+    <section id="about" class="about_section layout_padding mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="img-box">
+              <img src="images/about-img.png" alt="" />
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="detail-box">
+              <div class="custom_heading-container">
+                <h2>À propos de nous</h2>
+              </div>
+
+              <p>
+                Étant développeur web depuis plusieurs années, je propose à
+                travers de l'agence CleanCode, la création et la maintenance de
+                votre site web vitrine.
+              </p>
+              <p>
+                Mon engagement est de vous accompagner tout au long de votre
+                projet en comprenant parfaitement vos besoins et aspirations. Je
+                mets un point d'honneur à créer un site web moderne et intuitif,
+                parfaitement en accord avec votre identité et votre vision.
+              </p>
+              <p style="font-weight: bold">
+                Ma passion pour l'innovation et mon engagement envers
+                l'excellence me poussent à rester à la pointe des dernières
+                technologies et tendances web. Je m'efforce constamment d'offrir
+                des solutions évolutives et durables, garantissant ainsi la
+                pérennité de votre présence en ligne.
+              </p>
+              <div>
+                <a href="contact.html"> Contactez-nous </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end about section -->
+    <section id="services"  class="portfolio_section layout_padding">
+      <div class="container">
+        <div class="custom_heading-container">
+          <h2>Nos domaines d'intervention</h2>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="box b-1">
+                  <img src="images/p-1.png" alt="" />
+                  <h4>Conception de Logo</h4>
+                </div>
+                <div class="box b-2">
+                  <img src="images/p-2.png" alt="" />
+                  <h4>Site web</h4>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="box b-3">
+                  <img src="images/p-3.png" alt="" />
+                  <h4>Optimisation de vos sites web</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="box b-4">
+                  <img src="images/p-4.png" alt="" />
+                  <h4>Entretien Et Nettoyage</h4>
+                </div>
+                <div class="box b-5">
+                  <img src="images/p-5.png" alt="" />
+                  <h4>Website Design</h4>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="box b-6">
+                  <img src="images/p-6.jpg" alt="" />
+                  <h4>Décoration</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- do section -->
+    <section class="do_section layout_padding-bottom">
+      <div class="container">
+        <div class="custom_heading-container">
+          <h2>Qu'est ce que nous faisons ?</h2>
+        </div>
+        <!-- <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="content-box bg-red">
+              <div class="img-box">
+                <img src="images/idea.png" alt="" />
+              </div>
+              <div class="detail-box">
+                <h6>Web Design</h6>
+                <p>
+                  Nous réalisons la maquete de vos sites webtout en Nous
+                  réalisons la maquette de vos sites web tout en respectant les
+                  règles ui/ux.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="content-box bg-green">
+              <div class="img-box">
+                <img src="images/controller.png" alt="" />
+              </div>
+              <div class="detail-box">
+                <h6>Application web et mobile</h6>
+                <p>
+                  Que ce soit des application web ou téléchargeable sur
+                  playstore et appstore, nous vous concevons des applications
+                  avec des interfaces fluides et intuitives.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="content-box bg-red">
+              <div class="img-box">
+                <img src="images/clean.png" alt="" />
+              </div>
+              <div class="detail-box">
+                <h6>Entretien et Nettoyage</h6>
+                <p>
+                  Nous proposons une gamme complète de services de nettoyage, comprenant le nettoyage des sols, des surfaces, des meubles, des sanitaires, des vitres et bien plus encore. Nous utilisons des produits de nettoyage respectueux de l'environnement et des méthodes efficaces pour garantir des résultats exceptionnels tout en préservant la santé et la sécurité de nos clients et de leur environnement.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="content-box bg-green">
+              <div class="img-box">
+                <img src="images/deco.png" alt="" />
+              </div>
+              <div class="detail-box">
+                <h6>Décoration</h6>
+                <p>
+                  Nous offrons une gamme complète de services de décoration intérieure et extérieure, adaptés à vos besoins et à votre budget. De la sélection de couleurs et de textures à l'agencement de meubles, d'accessoires et d'œuvres d'art, nous apportons une touche créative et experte à chaque projet.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+        <div class="card-container">
+          <div class="card">
+            <img src="./images/projet1.png" width="100%" height="100%" alt="Image 1">
+            <h3>Impact Movie</h3>
+            <p>Une chaîne chrétienne d'édification</p>
+          <a  target="_blank" href="https://impactmovie.netlify.app/">Views</a>
+           
+          </div>
+          <div class="card">
+            <img src="./images/projet2.png"  width="100%" height="100%" alt="Image 2">
+            <h3>La Grâce Parle</h3>
+            <p>Un centre de prière chrétienne</p>
+            <button><a href="https://lagraceparle.org" target="_blank">Views</a></button>
+          </div>
+          <div class="card">
+            <img src="./images/projet3.png" width="100%" height="100%" alt="Image 3">
+            <h3>Le Guide Bj</h3>
+            <p>Tourisme au Bénin secteur</p>
+            <button><a target="_blank" href="https://leguidebestjourney.netlify.app/">Views</a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end do section -->
+    <!-- skill section -->
+
+    <section class="skill_section layout_padding2">
+      <div class="container">
+        <div class="custom_heading-container">
+          <h2>Nos stacks technique</h2>
+        </div>
+        <div class="skill_padding">
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <div class="box">
+                <div class="circle" id="circles-1"></div>
+                <h6>WordPress</h6>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="box">
+                <div class="circle" id="circles-2"></div>
+                <h6>React Native</h6>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="box">
+                <div class="circle" id="circles-3"></div>
+                <h6>NextJs</h6>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="box">
+                <div class="circle" id="circles-4"></div>
+                <h6>Node Js</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end skill section -->
+    <!-- portfolio section -->
+ 
+    <!-- end portfolio section -->
+    <!-- Devis section -->
+    <div id="tarifs" class="container">
+      <div class="custom_heading-container">
+        <h2>Nos tarifs à bas prix</h2>
+      </div>
+    </div>
+    <div class="parentDevis">
+      <div class="childDevisOne">
+        <div class="landing">
+          <h1>Site web vitrine</h1>
+          <p>Un site web sur une seule page pour maximiser l'attention</p>
+          <h3>75.000 fcfa</h3>
+        </div>
+        <div class="liste">
+          <ul>
+            <li>Maquettage et Graphisme</li>
+            <li>Responsive</li>
+            <li>Référencement naturel</li>
+            <li>Formulaire de contact</li>
+            <li>Nom de domaine et hébergement</li>
+            <li style="text-decoration: line-through">
+              Gestion de la page et de la navigation
+            </li>
+            <li style="text-decoration: line-through">Stastiques mensuelle</li>
+          </ul>
+        </div>
+      </div>
+      <div class="childDevisThree">
+        <div class="landing">
+          <h1>Site Web</h1>
+          <p>Un site web avec plusieurs pages et une barre de navigation</p>
+          <h3>100.000 fcfa</h3>
+        </div>
+        <div class="liste">
+          <ul>
+            <li>Maquettage et Graphisme</li>
+            <li>Responsive</li>
+            <li>Référencement naturel</li>
+            <li>Formulaire de contact</li>
+            <li>Nom de domaine et hébergement</li>
+            <li>Gestion de la page et de la navigation</li>
+            <li>Stastiques mensuelle</li>
+          </ul>
+        </div>
+      </div>
+      <div id="childGreat" class="childDevisTwo">
+        <div class="landing">
+          <h1>+ Options</h1>
+          <p>
+            Pour un site web encore plus performant, en fonction de vos besoins
+          </p>
+
+          <h6
+            style="
+              background-color: aquamarine;
+              display: inline-block;
+              padding: 5px;
+              color: #000;
+              border-radius: 12px;
+            "
+          >
+            SUR DEVIS
+          </h6>
+        </div>
+        <div class="liste">
+          <ul>
+            <li>Gestion d'article de blog</li>
+            <li>Page d'administration</li>
+            <li>Newsletter</li>
+            <li>Formulaire de contact</li>
+            <li>Autre sur demande</li>
+            <li>
+              <div class="login_btn-container">
+                <button id="devis" type="button">Prendre un devis</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- end Devis section -->
+    <!-- client section -->
+    <section id="testimony" class="client_section layout_padding-bottom">
+      <div class="container">
+        <div class="custom_heading-container">
+          <h2>Ce que disent nos clients</h2>
+        </div>
+      </div>
+
+      <div class="container">
+        <div
+          id="carouselExample2Controls"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="client_container layout_padding2">
+                <div class="client_box b-1">
+                  <div class="client-id">
+                    <div class="img-box">
+                      <img src="images/user.webp" alt="" />
+                    </div>
+                    <div class="name">
+                      <h5>Gomez Dalvida</h5>
+                      <p>client</p>
+                    </div>
+                  </div>
+                  <div class="detail">
+                    <p>
+                      Le service d'entretien de cette entreprise est tout simplement remarquable ! Leur équipe est ponctuelle, efficace et travaille avec un haut niveau de professionnalisme. Ils ont réussi à garder nos installations en parfait état, ce qui a contribué à créer un environnement sûr et agréable pour nos employés et nos clients. Leur réactivité face aux demandes d'intervention et leur souci du détail font d'eux un partenaire de confiance pour toutes nos besoins en matière d'entretien
+                    </p>
+                  </div>
+                </div>
+                <div class="client_box b-2">
+                  <div class="client-id">
+                    <div class="img-box">
+                      <img src="images/user-wife.webp" alt="" />
+                    </div>
+                    <div class="name">
+                      <h5>Ahouanssou Ines</h5>
+                      <p>client</p>
+                    </div>
+                  </div>
+                  <div class="detail">
+                    <p>
+                      Nous sommes extrêmement satisfaits du service d'entretien fourni par cette entreprise. Leur équipe est toujours proactive dans la gestion de notre propriété, anticipant les besoins d'entretien et agissant rapidement pour résoudre tout problème éventuel. Leur niveau de professionnalisme et leur engagement envers la qualité sont évidents dans chaque interaction que nous avons eue avec eux. Nous recommandons fortement leurs services à toute entreprise soucieuse de maintenir ses installations dans un état optimal
+                    </p>
+                  </div>
+                </div>
+             
+              </div>
+            </div>
+          </div>
+          <!-- <a
+            class="carousel-control-prev"
+            href="#carouselExample2Controls"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExample2Controls"
+            role="button"
+            data-slide="next"
+          >
+            <span class="sr-only">Next</span>
+          </a> -->
+        </div>
+      </div>
+      <div class="container">
+        <div
+          id="carouselExample2Controls"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="client_container layout_padding2">
+           
+                <div class="client_box b-2">
+                  <div class="client-id">
+                    <div class="img-box">
+                      <img src="images/user-wife.webp" alt="" />
+                    </div>
+                    <div class="name">
+                      <h5>Mr Claude</h5>
+                      <p>client</p>
+                    </div>
+                  </div>
+                  <div class="detail">
+                    <p>
+                      Nous avons eu une expérience incroyable avec l'agence de développement ! Leur approche axée sur le client et leur capacité à comprendre nos besoins spécifiques ont conduit à la livraison d'un produit final qui dépasse nos attentes. De la conception initiale à la mise en œuvre finale, chaque étape du processus a été gérée de manière professionnelle et avec une grande attention aux détails. Travailler avec eux a été un vrai plaisir et nous prévoyons de poursuivre notre collaboration à l'avenir.
+                    </p>
+                  </div>
+                </div>
+                <div class="client_box b-2">
+                  <div class="client-id">
+                    <div class="img-box">
+                      <img src="images/user-wife.webp" alt="" />
+                    </div>
+                    <div class="name">
+                      <h5>Mme Dossou</h5>
+                      <p>client</p>
+                    </div>
+                  </div>
+                  <div class="detail">
+                    <p>
+                      L'équipe de développement de cette agence est exceptionnelle ! Leur expertise technique combinée à leur approche collaborative ont permis de concrétiser notre vision de manière efficace et innovante. Leur communication transparente et leur engagement à respecter les délais ont été particulièrement appréciés. Je recommande vivement leurs services à toute entreprise à la recherche d'une solution de développement de haute qualité
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <a
+            class="carousel-control-prev"
+            href="#carouselExample2Controls"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExample2Controls"
+            role="button"
+            data-slide="next"
+          >
+            <span class="sr-only">Next</span>
+          </a> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- end client section -->
+
+    <!-- contact section -->
+
+    <section id="contactForm" class="contact_section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 offset-lg-2 col-md-5 offset-md-1">
+            <h2 class="custom_heading">Contactez-nous</h2>
+            <div class="col-md-12 col-lg-12">
+              <div class="info_contact">
+              
+                <div>
+                  <img src="images/location.png" alt="" />
+                  <p>Calavi</p>
+                </div>
+                <div>
+                  <img src="images/telephone.png" alt="" />
+                  <p>+229 53 03 78 32 /55 83 18 70</p>
+                </div>
+                <div>
+                  <img src="images/envelope.png" alt="" />
+                  <p>lagraceparle98@gmail.com</p>
+                </div>
+              </div>
+            </div>
+            <!-- <form action="#">
+              <div>
+                <input type="text" placeholder="Nom" />
+              </div>
+              <div>
+                <input type="email" placeholder="Email" />
+              </div>
+              <div>
+                <select
+                  required
+                  class="form-control"
+                  id="subject"
+                  name="subject"
+                >
+                  <option value="" disabled selected>
+                    Choisissez un sujet
+                  </option>
+                  <option value="Création de site web vitrine ">
+                    Création de site web vitrine
+                  </option>
+                  <option value="Création d'application web ">
+                    Création d'application web
+                  </option>
+                  <option value="Creation d'application mobile">
+                    Creation d'application mobile (android && ios)
+                  </option>
+                  <option value="Site web avec wordpress">
+                    Site web avec wordpress
+                  </option>
+                  <option value="Maintenance de vos sites web et application ">
+                    Maintenance de vos sites web et application
+                  </option>
+                  <option value="Logos et maquette ">Logos et maquette</option>
+                  <option value="Autres ">Autres</option>
+                </select>
+                <br />
+              </div>
+              <div>
+                <input type="text" placeholder="Numéro de telephone" />
+              </div>
+              <div>
+                <input type="text" class="message-box" placeholder="Message" />
+              </div>
+              <div class="d-flex mt-4">
+                <button>Envoyer</button>
+              </div>
+            </form> -->
+          </div>
+          <div class="col-md-6 px-0">
+            <div class="img-box">
+              <img src="images/contact.jpg" alt="" class="w-100" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end contact section -->
+
+    <!-- info section -->
+   
+
+    <!-- end info_section -->
+
+    <!-- footer section -->
+    <footer class="container-fluid footer_section">
+      <p>
+        &copy; 2022 All Rights Reserved By
+        <a href="index.html">CleanCode</a>
+      </p>
+    </footer>
+    <!-- footer section -->
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/circles.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
